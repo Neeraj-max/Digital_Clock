@@ -63,7 +63,7 @@ function updateClock () {
    document.getElementById("clock").innerHTML = currentTime;
 };
 
-setInterval(showTime, 1000);
+setInterval(updateClock, 1000);
 
 updateClock();
 
